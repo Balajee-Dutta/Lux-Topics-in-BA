@@ -22,8 +22,8 @@ merged_df = pd.merge(merged_df, health_warnings_lux, on='Year', suffixes=('', '_
 merged_df = pd.merge(merged_df, quit_tobacco_help_lux, on='Year', suffixes=('', '_quit'))
 merged_df = pd.merge(merged_df, smoke_free_lux, on='Year', suffixes=('', '_smoke'))
 
-# Save the cleaned dataframe as CSV
-#merged_df.to_excel(r'C:\Users\Jeedu\OneDrive\Desktop\Lux-Topics in BA\merged_tobacco_control_data.xlsx', index=False)
+#Save the cleaned dataframe as CSV
+merged_df.to_excel(r'C:\Users\Jeedu\OneDrive\Desktop\Lux-Topics in BA\merged_tobacco_control_data.xlsx', index=False)
 
 # Display the cleaned dataframe
 print(merged_df.head())
