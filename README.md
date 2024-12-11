@@ -10,11 +10,11 @@ Policy Support: Offer data-driven recommendations to reduce smoking rates.
 
 Project Structure
 
-├── data/             # Raw and processed datasets
-├── notebooks/        # Jupyter notebooks for analysis
-├── scripts/          # Python scripts for data cleaning, visualization, and modeling
-├── visualizations/   # Visuals (heatmaps, charts, etc.)
-├── README.md         # Project overview and instructions, Required libraries
+[data/             # Raw and processed datasets]
+[notebooks/        # Jupyter notebooks for analysis]
+[scripts/          # Python scripts for data cleaning, visualization, and modeling]
+[visualizations/   # Visuals (heatmaps, charts, etc.)]
+[README.md         # Project overview and instructions, Required libraries]
 
 How to Run
 
